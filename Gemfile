@@ -5,6 +5,10 @@ gem "haml", "3.0.12"
 gem "maruku", "0.6.0"
 gem "RedCloth", "4.2.2"
 gem "sinatra", "1.1.0", :require => "sinatra/base"
+gem "rack-funky-cache", "0.0.3"
+gem "coderay", "0.9.5"
+gem "rack-codehighlighter", "0.4.7"
+gem "heroku"
 
 group :development do
   # gem (RUBY_VERSION =~ /^1.9/) ? "ruby-debug19" : "ruby-debug"
